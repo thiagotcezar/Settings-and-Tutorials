@@ -31,8 +31,8 @@ $ newman run MyCollection.postman_collection.json -e MyEnvironment.json -r htmle
 
 Os comandos apartados basicamente tem essas funções:
 
-**newman run MyCollection.postman_collection.json:** Executa o Newman apontando para qual collection vamos utilizar.
+- **newman run MyCollection.postman_collection.json:** Executa o Newman apontando para qual collection vamos utilizar.
 
-**-e MyEnvironment.json:** -e aponta as variáveis que nossa collection vai consumir.
+- **-e MyEnvironment.json:** -e aponta as variáveis que nossa collection vai consumir.
 
-**-r htmlextra:** Informa qual o tipo de relatório queremos, nesse caso, o extra.
+- **-r htmlextra:** Informa qual o tipo de relatório queremos, nesse caso, o extra.
